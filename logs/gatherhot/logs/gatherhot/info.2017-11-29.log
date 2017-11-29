@@ -1,0 +1,32 @@
+2017-11-29  22:33:41.363 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017-11-29  22:33:41.386 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-11-29  22:33:41.386 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created.
+2017-11-29  22:33:41.387 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017-11-29  22:33:41.388 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'springJobSchedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-11-29  22:33:41.388 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'springJobSchedulerFactoryBean' initialized from an externally provided properties instance.
+2017-11-29  22:33:41.388 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0
+2017-11-29  22:33:41.389 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@222545dc
+2017-11-29  22:33:41.417 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler springJobSchedulerFactoryBean_$_NON_CLUSTERED started.
+2017-11-29  22:33:41.422 [springJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+2017-11-29  22:33:45.013 [springJobSchedulerFactoryBean_Worker-1] DEBUG org.quartz.core.JobRunShell - Calling execute on job DEFAULT.myJobDetail
+2017-11-29  22:33:45.013 [springJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+2017-11-29  22:33:45.015 [springJobSchedulerFactoryBean_Worker-1] INFO  com.netease.gather.JobService - start to process job...
+2017-11-29  22:33:50.002 [springJobSchedulerFactoryBean_Worker-2] DEBUG org.quartz.core.JobRunShell - Calling execute on job DEFAULT.myJobDetail
+2017-11-29  22:33:50.002 [springJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+2017-11-29  22:33:50.003 [springJobSchedulerFactoryBean_Worker-2] INFO  com.netease.gather.JobService - start to process job...
+2017-11-29  22:33:55.006 [springJobSchedulerFactoryBean_Worker-3] DEBUG org.quartz.core.JobRunShell - Calling execute on job DEFAULT.myJobDetail
+2017-11-29  22:33:55.006 [springJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+2017-11-29  22:33:55.006 [springJobSchedulerFactoryBean_Worker-3] INFO  com.netease.gather.JobService - start to process job...
+2017-11-29  22:34:00.003 [springJobSchedulerFactoryBean_Worker-4] DEBUG org.quartz.core.JobRunShell - Calling execute on job DEFAULT.myJobDetail
+2017-11-29  22:34:00.003 [springJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+2017-11-29  22:34:00.007 [springJobSchedulerFactoryBean_Worker-4] INFO  com.netease.gather.JobService - start to process job...
+2017-11-29  22:34:05.001 [springJobSchedulerFactoryBean_Worker-5] DEBUG org.quartz.core.JobRunShell - Calling execute on job DEFAULT.myJobDetail
+2017-11-29  22:34:05.001 [springJobSchedulerFactoryBean_QuartzSchedulerThread] DEBUG org.quartz.core.QuartzSchedulerThread - batch acquisition of 1 triggers
+2017-11-29  22:34:05.002 [springJobSchedulerFactoryBean_Worker-5] INFO  com.netease.gather.JobService - start to process job...
